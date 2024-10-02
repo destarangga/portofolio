@@ -75,7 +75,7 @@
             <div class="profile__buttons">
                 <!-- Insert your CV -->
                 <a href="assets/pdf/CV Desta.pdf" target="_blank" class="button">
-                    View CV <i class="ri-eye-line"></i>
+                    View CV<i class="fas fa-eye"></i> 
 
                 </a>
                 <div class="profile__buttons-small">
@@ -109,21 +109,38 @@
             </ul>
 
             <div class="filters__sections">
-                <!--=============== ABOUT ===============-->
+           <!--=============== ABOUT ===============-->
                 <div class="abouts__content grid filters__active" data-content id="abouts">
-                <section id="about" class="about-section">
-                    <div class="container">
-                      <div class="about-content">
-                        <h2>About Us</h2>
-                        <p>I am a web developer who wants to develop myself in various fields. Proficient in managing databases,
-                            creating web-based applications, creating application documentation, managing applications.
-                            Possess exceptional communication and interpersonal skills with a proven ability to work
-                            independently and as part of a team.</p>
-                      </div>
-                    </div>
-                  </section>                  
-                
+                    <section id="about" class="about-section">
+                        <div class="container">
+                            <div class="about-content">
+                                <h2>About Us</h2>
+                                <p>I am a web developer who wants to develop myself in various fields. Proficient in managing databases,
+                                    creating web-based applications, creating application documentation, managing applications.
+                                    Possess exceptional communication and interpersonal skills with a proven ability to work
+                                    independently and as part of a team.</p><br>
+                                    <div class="education__card">
+                                        <div class="education__info">
+                                            <h3>Intern Exprience</h3>
+                                            <hr>
+                                            <span>2023 - 2024</span>
+                                            <p>PT Mede Media Softika</p>
+                                        </div>
+                                    </div>
+                                    <div class="education__card">
+                                        <div class="education__info">
+                                            <h3>High Scholl</h3>
+                                            <hr>
+                                            <span>2021 - 2024</span>
+                                            <p>Wikrama Vocational High School</p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
+  
+
 
                 <!--=============== PROJECTS ===============-->
                 <div class="projects__content grid" data-content id="projects">
@@ -135,14 +152,14 @@
                             <div>
                                 <span class="projects__subtitle">Web</span>
                                 <h3 class="projects__title">Payment Site</h3>
-                                <a href="#" class="projects__button button button__small">
-                                    <i class="ri-link"></i>
-                                </a>
+                                <div class="projects__button button" onclick="openModal('modal1')">
+                                    <i class="fas fa-eye"></i> View
+                                </div>
                             </div>
                         </div>
                         <div id="modal1" class="modal">
                             <span class="modal__close" onclick="closeModal('modal1')">&times;</span>
-                            <img class="modal__content" src="path-to-your-project-image.jpg" alt="Nama Proyek">
+                            <img class="modal__content" src="assets/images/Modal1.png" alt="">
                           </div>
                     </article>
 
@@ -153,10 +170,14 @@
                             <div>
                                 <span class="projects__subtitle">Web</span>
                                 <h3 class="projects__title">Portfolio website</h3>
-                                <a href="#" class="projects__button button button__small">
-                                    <i class="ri-link"></i>
-                                </a>
+                                <div class="projects__button button" onclick="openModal('modal2')">
+                                    <i class="fas fa-eye"></i> View
+                                </div>
                             </div>
+                        </div>
+                        <div id="modal2" class="modal">
+                            <span class="modal__close" onclick="closeModal('modal2')">&times;</span>
+                            <img class="modal__content" src="assets/images/Modal2.png" alt="">
                         </div>
                     </article>
 
@@ -167,9 +188,13 @@
                             <div>
                                 <span class="projects__subtitle">Mockup</span>
                                 <h3 class="projects__title">Bank System</h3>
-                                <a href="#" class="projects__button button button__small">
-                                    <i class="ri-link"></i>
-                                </a>
+                                <div class="projects__button button" onclick="openModal('modal3')">
+                                    <i class="fas fa-eye"></i> View
+                                </div>
+                                <div id="modal3" class="modal">
+                                    <span class="modal__close" onclick="closeModal('modal3')">&times;</span>
+                                    <img class="modal__content" src="assets/images/Modal3.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </article>
@@ -181,9 +206,13 @@
                             <div>
                                 <span class="projects__subtitle">Web</span>
                                 <h3 class="projects__title">System Informasi app</h3>
-                                <a href="#" class="projects__button button button__small">
-                                    <i class="ri-link"></i>
-                                </a>
+                                <div class="projects__button button" onclick="openModal('modal4')">
+                                    <i class="fas fa-eye"></i> View
+                                </div>
+                                <div id="modal4" class="modal">
+                                    <span class="modal__close" onclick="closeModal('modal4')">&times;</span>
+                                    <img class="modal__content" src="assets/images/Modal4.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </article>
